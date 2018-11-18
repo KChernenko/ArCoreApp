@@ -41,15 +41,20 @@ dependencies {
 
 sceneform.asset('sampledata/chair/model.obj',
         'default',
-        'sampledata/chair/model.sfa',
+        'sampledata/chair/chair.sfa',
         'src/main/assets/chair')
 
 sceneform.asset('sampledata/couch/model.obj',
         'default',
-        'sampledata/couch/model.sfa',
+        'sampledata/couch/couch.sfa',
         'src/main/assets/couch')
 
 sceneform.asset('sampledata/lamp/LampPost.obj',
         'default',
-        'sampledata/lamp/LampPost.sfa',
+        'sampledata/lamp/lamp.sfa',
         'src/main/assets/lamp')
+
+sceneform.asset('sampledata/airplane/Airplane.obj',
+        'default',
+        'sampledata/airplane/airplane.sfa',
+        'src/main/assets/airplane')
